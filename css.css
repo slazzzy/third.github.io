@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif margin;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    line-height: 0%;
+}
+
+#child {
+    color: white;
+    font-size: 10;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#aa {
+    margin-bottom: 100px;
+}
+
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    text-align: left;
+
+}
+
+#footer {
+    position: fixed;
+    /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    /* Левый нижний угол */
+    padding: 10px;
+    /* Поля вокруг текста */
+    background: #0c0c0c;
+    /* Цвет фона */
+    color: #fff;
+    /* Цвет текста */
+    width: 100%;
+    /* Ширина слоя */
+}
+
+#main-aside-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-aside-wrapper main #main-aside-wrapper aside {
+    background-color: rgb(109, 109, 109);
+    margin: 10px;
+    padding: 10px;
+}
+
+#main-aside-wrapper aside {
+    background-color: #141414;
+    flex: 1;
+    order: 2;
+}
+
+#main-aside-wrapper main {
+    background-color: rgb(20, 20, 20);
+    flex: 5;
+    order: 2;
+}
+
+@media screen and (min-width: 800px) {
+    #main-aside-wrapper {
+        flex-direction: row;
+    }
+}
+
+#glavcont {
+    color: #fff;
+}
+
+aside {
+    font-style: oblique
+}
